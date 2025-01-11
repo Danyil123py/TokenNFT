@@ -1,0 +1,163 @@
+body{
+
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(лс.webp);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Общий стиль карточки */
+.nft1 {
+    width: 350px;
+    padding: 10px;
+    margin: 20px ;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #1e1e2f, #29293f);
+    box-shadow: 6px 6px 12px #1a1a27, -6px -6px 12px #2e2e45;
+    text-align: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nft1:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 16px #1a1a27, -8px -8px 16px #2e2e45;
+}
+
+/* Стиль для изображения */
+.img3 {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Стиль заголовка */
+.h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Стиль цены */
+.h3 {
+    font-size: 20px;
+    color: #ffd700;
+    margin: 10px 0;
+}
+
+/* Кнопка "Buy" */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1e1e2f;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #29293f;
+}
+
+
+h1{
+
+color: azure;
+display: flex;
+justify-content: center;
+
+
+}
+.catalog{
+
+display: flex;
+justify-content: center;
+gap: 15px;
+
+}
+
+
+.Animals{
+
+    height: 200px;
+    background-color: #191983;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

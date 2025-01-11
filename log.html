@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Form</title>
+    
+        <style>/* Общий стиль для body */
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center; /* Центрируем содержимое горизонтально */
+                align-items: center;   /* Центрируем содержимое вертикально */
+                height: 100vh;         /* Высота экрана */
+                background-color: #1e1eb8; /* Светлый фон */
+                font-family: Arial, sans-serif;
+            }
+    
+            /* Для div1 */
+            .div1 {
+                display: flex;
+                justify-content: center; /* Центрируем содержимое внутри */
+                align-items: center;
+                flex-direction: column; /* Размещаем элементы вертикально */
+                background: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+    
+            /* Для текстовых меток */
+            .tn p {
+                margin: 10px 0;
+                font-size: 1em;
+                color: #333;
+            }
+    
+            /* Для полей ввода */
+            input {
+                width: 200px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 1em;
+            }
+    
+            input:focus {
+                border-color: #007bff;
+                outline: none;
+            }
+    
+            .but25{
+                background-color: #007bff;
+                width: 100px;
+                height: 35px;
+                border-radius: 20px;
+                left: 50%;
+                
+            }
+    
+    
+    
+    
+    </style>
+    
+
+
+
+    <div class="div1">
+        <div class="tn">
+            <p class="name">Enter your name</p>
+            <input type="text" placeholder="Your name">
+            <p class="password">Enter your password</p>
+            <input type="password" placeholder="Your password">
+            <br>
+            <br>
+            <a href="html.html">
+                <button class="but25">
+                    Log in
+                </button>
+            </a>
+        </div>
+    </div>
+    <script src="js.js"></script> <!-- Подключаем JavaScript -
+
+
+
+
+
+
+    
+</body>
+</html>
+
+    
