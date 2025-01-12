@@ -102,6 +102,41 @@ gap: 15px;
 }
 
 
+@media screen and (width<500px){
+    .nft1{
+        width: 150px;
+    }
+
+    
+}
+
+
+@media screen and (width<435px){
+    .nft1{
+        width: 150px;
+    }
+
+    .catalog{
+
+        gap: 5px;
+
+    }
+}
+
+
+
+
+@media screen and (width<426px){
+    .nft1{
+        width: 140px;
+    }
+
+    .catalog{
+
+        gap: 5px;
+
+    }
+}
 
 
 
