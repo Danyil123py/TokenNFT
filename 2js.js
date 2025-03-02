@@ -10,7 +10,7 @@ document.getElementById("purchase-form").addEventListener("submit", async functi
     const apiUrl = `https://api.telegram.org/bot${bot}/sendMessage`;
 
     try{
-        const res = await fetch( "https://68cxxvs3-5000.euw.devtunnels.ms/send_telegram_message" , {
+        const res = await fetch( "https://zb4bp1ff-5000.euw.devtunnels.ms/send_telegram_message" , {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

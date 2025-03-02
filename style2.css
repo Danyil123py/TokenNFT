@@ -56,7 +56,8 @@ body{
 
 .h33 {
     font-size: 20px;
-    color: #ea0606;
+    color: #ee0034;
+    
     margin: 10px 0;
 }
 
@@ -175,8 +176,8 @@ gap: 15px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    color: #ef0909;
-    background-color: #ffffff87;
+    color: #ea0606;
+    background-color: #ffffff49;
     border: none;
     border-radius: 25px;
     cursor: pointer;
